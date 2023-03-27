@@ -11,6 +11,12 @@
 		7E4F46AE29CA0C8100EB78E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4F46AD29CA0C8100EB78E9 /* ContentView.swift */; };
 		7E4F46B029CA0C8200EB78E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E4F46AF29CA0C8200EB78E9 /* Assets.xcassets */; };
 		7E4F46B329CA0C8200EB78E9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E4F46B229CA0C8200EB78E9 /* Preview Assets.xcassets */; };
+		7E4F46BB29CA0D3500EB78E9 /* Gilroy-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7E4F46B929CA0D3500EB78E9 /* Gilroy-ExtraBold.otf */; };
+		7E4F46BC29CA0D3500EB78E9 /* Gilroy-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7E4F46BA29CA0D3500EB78E9 /* Gilroy-Light.otf */; };
+		7E9B30CA29CA13C100F2ADE1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9B30C929CA13C100F2ADE1 /* HomeView.swift */; };
+		7E9B30CC29CA152400F2ADE1 /* LocateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9B30CB29CA152400F2ADE1 /* LocateView.swift */; };
+		7E9B30CE29CA1A1300F2ADE1 /* TargetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9B30CD29CA1A1300F2ADE1 /* TargetView.swift */; };
+		7E9B30D029CA1A1F00F2ADE1 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9B30CF29CA1A1F00F2ADE1 /* ChatView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,13 @@
 		7E4F46AD29CA0C8100EB78E9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7E4F46AF29CA0C8200EB78E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E4F46B229CA0C8200EB78E9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7E4F46B929CA0D3500EB78E9 /* Gilroy-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-ExtraBold.otf"; sourceTree = "<group>"; };
+		7E4F46BA29CA0D3500EB78E9 /* Gilroy-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Light.otf"; sourceTree = "<group>"; };
+		7E4F46BD29CA0D6100EB78E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7E9B30C929CA13C100F2ADE1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		7E9B30CB29CA152400F2ADE1 /* LocateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocateView.swift; sourceTree = "<group>"; };
+		7E9B30CD29CA1A1300F2ADE1 /* TargetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetView.swift; sourceTree = "<group>"; };
+		7E9B30CF29CA1A1F00F2ADE1 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +64,16 @@
 		7E4F46AA29CA0C8100EB78E9 /* tinderDribbble */ = {
 			isa = PBXGroup;
 			children = (
+				7E4F46BD29CA0D6100EB78E9 /* Info.plist */,
 				7E4F46AB29CA0C8100EB78E9 /* tinderDribbbleApp.swift */,
 				7E4F46AD29CA0C8100EB78E9 /* ContentView.swift */,
+				7E9B30CD29CA1A1300F2ADE1 /* TargetView.swift */,
+				7E9B30CF29CA1A1F00F2ADE1 /* ChatView.swift */,
+				7E9B30CB29CA152400F2ADE1 /* LocateView.swift */,
+				7E9B30C929CA13C100F2ADE1 /* HomeView.swift */,
 				7E4F46AF29CA0C8200EB78E9 /* Assets.xcassets */,
+				7E4F46B929CA0D3500EB78E9 /* Gilroy-ExtraBold.otf */,
+				7E4F46BA29CA0D3500EB78E9 /* Gilroy-Light.otf */,
 				7E4F46B129CA0C8200EB78E9 /* Preview Content */,
 			);
 			path = tinderDribbble;
@@ -127,6 +147,8 @@
 			files = (
 				7E4F46B329CA0C8200EB78E9 /* Preview Assets.xcassets in Resources */,
 				7E4F46B029CA0C8200EB78E9 /* Assets.xcassets in Resources */,
+				7E4F46BC29CA0D3500EB78E9 /* Gilroy-Light.otf in Resources */,
+				7E4F46BB29CA0D3500EB78E9 /* Gilroy-ExtraBold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +159,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E9B30CA29CA13C100F2ADE1 /* HomeView.swift in Sources */,
 				7E4F46AE29CA0C8100EB78E9 /* ContentView.swift in Sources */,
+				7E9B30CC29CA152400F2ADE1 /* LocateView.swift in Sources */,
+				7E9B30CE29CA1A1300F2ADE1 /* TargetView.swift in Sources */,
+				7E9B30D029CA1A1F00F2ADE1 /* ChatView.swift in Sources */,
 				7E4F46AC29CA0C8100EB78E9 /* tinderDribbbleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +295,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"tinderDribbble/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = tinderDribbble/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -297,6 +324,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"tinderDribbble/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = tinderDribbble/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
